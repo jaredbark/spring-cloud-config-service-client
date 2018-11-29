@@ -10,4 +10,8 @@ spring:
     config:
       uri: http://localhost:18080
       enabled: true
-
+  rabbitmq:
+    host: 192.168.1.48
+    port: 5672
+    username: test
+    password: test
